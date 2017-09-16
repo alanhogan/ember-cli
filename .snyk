@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - broccoli > findup-sync > glob > minimatch:
+        patched: '2017-09-16T20:54:37.563Z'
+  'npm:ms:20151024':
+    - testem > socket.io-pure > debug > ms:
+        patched: '2017-09-16T20:54:37.563Z'
+    - testem > socket.io-pure > engine.io-pure > debug > ms:
+        patched: '2017-09-16T20:54:37.563Z'
+    - testem > socket.io-pure > socket.io-adapter > debug > ms:
+        patched: '2017-09-16T20:54:37.563Z'
+    - testem > socket.io-pure > socket.io-client-pure > engine.io-client-pure > debug > ms:
+        patched: '2017-09-16T20:54:37.563Z'
